@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: cursive;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1587342831/vector/clipart-of-a-medical-mercury-thermometer.jpg?s=612x612&w=0&k=20&c=z1E7DhhxKB8wtDnee_I4J1Z9K2G6IuHUlfsynbeD8Tc=);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    padding: 1%;
+    font-size: 1rem;
+    color: rgb(61, 13, 13);
+}
+.nav{
+    text-align: right;
+    padding: 0 2%;
+}
+#navs ul li{
+    padding: 1%;
+    display: inline;
+}
+#navs ul li a{
+    font-weight: bold;
+}
+#navs ul li a:hover{
+    color: blueviolet;
+}
+#home{
+    margin-top: 10px;
+    padding: 2% 15%;
+    text-align: center;
+}
+h1{
+    padding:5%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(122, 122, 55);
+}
+.from{
+    padding: 5% 5% 2%;
+    margin: 5% 5% 10%;
+    font-size: 1rem;
+}
+.to{
+    padding: 3% 5% 5%;
+    margin: 5% 5% 10%;
+    font-size: 1rem;
+    size: 50%;
+}
+#service{
+    top: 60px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+    background-color:rgb(209, 207, 207);
+    border:  1px white;
+    width: 450px;
+    height: 350px;
+    border-radius: 10% 5%  10% 5%;
+    margin: 0 auto 0 auto;
+    padding: 8% 2% 7%;
+}
+#convert-btn{
+    font-family: serif;
+    font-size: 1.5rem;
+    width: 30%;
+    background-color:rgb(82, 172, 184);
+    margin-top: 20px;
+    border:  1px white;
+    border-radius: 40%;
+}
+.res{
+    text-align: left;
+}
+.result-btn{
+    font-size: 1rem;
+    width: 60%;
+    background-color:rgb(218, 218, 77);
+    border-radius: 12px;
+    display: inline;
+}
+#contact{
+    top: 30px;
+    padding: 10% 15% 7%;
+}
+.units{
+    font-size: 0.8rem;;
+}
+.result{
+    padding: 3% 1% 5%;
+}
+@media screen and (max-width: 728px){
+    h1{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1.1rem;
+        font-weight: lighter;
+    }
+}

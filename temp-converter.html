@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature-converter</title>
+    <link rel="stylesheet" href="temp-converter.css">
+    <!--box-icon links-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+
+    <!--navbar section-->
+    <section id="navs">
+            <a href="#" class="logo"><span><i class="bx bxs-thermometer bx-lg"></i>CFK converter</span></a><br>
+            <ul class="nav">
+                <li><a  href="#home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </section>
+
+    <!--home section-->
+    <section id="home">
+        <div class="row">
+            <div>
+                <h1>Welcome to CFK temprature converter website.</h1>
+                <h3>Easy, fast and reliable temprature converter.</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--service section-->
+    <section id="service">
+        <form id="conv-form">
+            <div>
+                <label for="degree"><span>Degree</span></label>
+                <input id="degree" type="text" placeholder="enter the degree"><br>
+            </div>
+            <div class="from">
+                <span>From</span>
+                <select id="fromUnit">
+                    <option class="units" value="celcius">celcius</option>
+                    <option class="units" value="fahrenheit">fahrenheit</option>
+                    <option class="units" value="kelvin">kelvin</option>
+                </select>
+            </div>
+            <div class="to">
+                <span>To</span>
+                <select id="toUnit">
+                    <option class="units" value="celcius">celcius</option>
+                    <option class="units" value="fahrenheit">fahrenheit</option>
+                    <option class="units" value="kelvin">kelvin</option>
+                </select>
+            </div>
+            <button id="convert-btn">Convert</button><br><br>
+            <div class="result">
+                <span class="res">Result: </span>
+                <button class="result-btn">
+                    <span id="result"></span>
+                    <span id="units"></span>
+                    <span id="show"></span></button>
+            </div>
+        </form>
+    </section>
+
+    <!--contact-->
+
+    <section id="contact">
+        <h3>Developer contact information</h3>
+        <a href="mailto:hawitulu71@gmail.com"><i class="bx bxl-gmail bx-md"></i></a>
+        <a href="https://github.com/hawiti"><i class="bx bxl-github bx-md"></i></a>
+        <a href="https://www.linkedin.com/in/hawi-tulu-225750273/"><i class="bx bxl-linkedin bx-md"></i></a>
+        <p style="font-size: 1rem; padding:20px 0;">&#169 Copyright 2023</p>
+    </section>
+</body>
+<footer>
+    <!--<script src="temp-converter.js"></script>-->
+    <script src="temp-converter.js"></script>
+</footer>
+</html>
